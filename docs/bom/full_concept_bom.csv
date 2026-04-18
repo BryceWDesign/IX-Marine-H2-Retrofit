@@ -1,0 +1,87 @@
+bom_id,module,submodule,item_name,qty,unit,concept_spec_or_class,primary_function,safety_class,notes
+BOM-001,Structural & Arrangement,Storage Support,Weather-deck hydrogen storage rack assembly,1,assembly,350-bar rack sized for about 90 kg gross hydrogen,Primary compressed-hydrogen storage structure and restraint,Critical,Near-centerline weather-deck placement preferred
+BOM-002,Structural & Arrangement,Storage Support,Storage rack support foundations,1,set,Marine structural support set,Transfer rack loads into vessel structure,Critical,Requires vessel-specific structural validation
+BOM-003,Structural & Arrangement,Storage Support,Impact-protection framing for storage zone,1,set,Weather-deck protective frame,Reduce accidental mechanical damage exposure,Important,Keep clear of line-handling interference
+BOM-004,Structural & Arrangement,Storage Support,Hydrogen manifold protective cabinet,1,assembly,Weather-resistant enclosure,Protect manifold and local instrumentation,Critical,Hydrogen-bearing enclosure with detector and access provisions
+BOM-005,Structural & Arrangement,Venting,Vent / relief mast assembly,1,assembly,High-point discharge mast,Route hydrogen relief and vent discharge upward,Critical,Keep-clear discipline required
+BOM-006,Structural & Arrangement,Access,Service platform and anti-slip access hardware,1,set,Marine deck access set,Allow inspection and maintenance at storage/process areas,Important,Must preserve safe access to manual isolation points
+BOM-007,Structural & Arrangement,Supports,Pipe, hose, and cable support system,1,set,Marine supports and trays,Support routing and reduce vibration / wear,Important,Routing must remain inspectable
+BOM-008,Structural & Arrangement,Penetrations,Protected process and cable penetrations,1,set,Sealed marine penetrations,Support safe routed interfaces between zones,Important,Final details hull-specific
+
+BOM-009,Intake & Water Treatment,Intake,Protected sea chest / recessed intake assembly,1,assembly,Harbor-service intake geometry,Admit seawater while reducing large-debris ingestion,Critical,Serviceable concept required
+BOM-010,Intake & Water Treatment,Intake,External coarse debris guard,1,assembly,Marine coarse guard,Reject large debris and floating trash,Important,First passive barrier
+BOM-011,Intake & Water Treatment,Primary Filtration,Removable wedge-wire or coarse strainer cassette,1,assembly,Serviceable coarse screen stage,Protect downstream treatment hardware,Critical,Accessible without major teardown
+BOM-012,Intake & Water Treatment,Primary Filtration,Strainer differential-pressure transmitters,2,each,Marine DP instrumentation,Detect clogging and service need,Important,Upstream and downstream measurement pair
+BOM-013,Intake & Water Treatment,Primary Filtration,Intake isolation valves,2,each,Marine service valves,Allow maintenance and controlled isolation,Important,Manual access required
+BOM-014,Intake & Water Treatment,Primary Filtration,Flush / backwash loop hardware,1,set,Service flush path,Support debris clearing and maintenance,Useful,Exact topology may vary
+BOM-015,Intake & Water Treatment,Pumping,Pretreatment feed pump,1,each,Seawater-compatible pump,Move intake water into treatment train,Critical,Sized to treatment flow not propulsion
+BOM-016,Intake & Water Treatment,Pretreatment,Duplex prefilter housing set,1,set,Marine duplex filtration set,Remove solids load before desalination,Important,Supports service without full downtime
+BOM-017,Intake & Water Treatment,Pretreatment,Pretreatment filter elements,1,set,Replaceable consumables set,Reduce suspended solids loading,Important,Consumable BOM line
+BOM-018,Intake & Water Treatment,Pretreatment,Automatic strainer or media filtration stage,1,assembly,Intermediate solids reduction stage,Protect RO skid from fouling,Important,Concept-stage choice left open inside bounded class
+BOM-019,Intake & Water Treatment,Desalination,RO desalination skid,1,assembly,About 250 gallons/day class concept sizing,Reduce salinity and dissolved solids,Critical,Concept allowance oversized for fouling / reserve margin
+BOM-020,Intake & Water Treatment,Desalination,RO high-pressure pump,1,each,RO support pump,Drive desalination stage,Critical,Treat as service-critical
+BOM-021,Intake & Water Treatment,Polishing,DI or EDI polishing skid,1,assembly,Electrolyzer-grade finishing path,Bring water quality to final feed standard,Critical,Final vendor path not yet locked
+BOM-022,Intake & Water Treatment,Polishing,Product-water conductivity analyzer,1,each,Continuous conductivity monitoring,Hard lockout input for electrolyzer start,Critical,No electrolysis without valid in-spec signal
+BOM-023,Intake & Water Treatment,Buffer,Clean-water day tank,1,each,Process-water buffer tank,Provide verified clean-water reserve,Critical,Level-monitored
+BOM-024,Intake & Water Treatment,Buffer,Clean-water tank level transmitter,1,each,Level instrumentation,Reserve threshold and low-level lockout,Important,Feeds startup permissives
+BOM-025,Intake & Water Treatment,Sampling,Sample points and drain / cleanout hardware,1,set,Service sampling and drain set,Support verification and maintenance,Useful,Needed for maintainability and troubleshooting
+
+BOM-026,Hydrogen Generation,Electrical Input,Electrolyzer rectifier / power-conditioning interface,1,assembly,450-kW-class support interface,Condition berth power for electrolysis,Critical,May be packaged with electrolyzer depending vendor
+BOM-027,Hydrogen Generation,Core Process,PEM electrolyzer skid,1,assembly,450-kW class,Generate hydrogen from treated water and external electricity,Critical,Core berth-generation module
+BOM-028,Hydrogen Generation,Feedwater,Electrolyzer feedwater conditioning hardware,1,set,Controlled clean-water feed hardware,Deliver clean process water to stack,Critical,Includes feed isolation and monitoring interfaces
+BOM-029,Hydrogen Generation,Separation,Gas-liquid separation assembly,1,assembly,Hydrogen production interface separator,Separate generated gas stream from liquid carryover,Critical,Immediate downstream of stack path
+BOM-030,Hydrogen Generation,Oxygen Handling,Oxygen vent header and routing,1,set,Dedicated oxygen byproduct routing,Handle oxygen stream safely,Important,Not treated as commercial product path
+BOM-031,Hydrogen Generation,Thermal Management,Electrolyzer cooling / thermal management skid,1,assembly,Stack thermal support hardware,Manage electrolyzer thermal load,Critical,Includes pumps / heat rejection interface as needed
+BOM-032,Hydrogen Generation,Instrumentation,Local pressure, temperature, and process instrumentation set,1,set,Generation-module instrumentation set,Provide permissives, trends, and trip inputs,Important,Concept count vendor-dependent
+BOM-033,Hydrogen Generation,Emergency Interface,Local emergency stop station for generation zone,1,each,Industrial E-stop station,Manual emergency shutdown input,Critical,Visible and reachable
+
+BOM-034,Gas Conditioning & Storage,Gas Quality,Hydrogen drying package,1,assembly,Post-generation gas drying stage,Condition hydrogen before compression/storage,Critical,Moisture management is mandatory
+BOM-035,Gas Conditioning & Storage,Compression,Hydrogen compressor package,1,assembly,Storage charging compressor,Raise gas pressure to storage class,Critical,Thermal and mechanical monitoring required
+BOM-036,Gas Conditioning & Storage,Compression,Compressor aftercooling hardware,1,set,Gas cooling support set,Manage discharge temperature,Important,May be integrated with compressor package
+BOM-037,Gas Conditioning & Storage,Charge Manifold,Charge manifold assembly,1,assembly,Hydrogen charge routing manifold,Direct conditioned hydrogen into storage,Critical,Readable isolation layout required
+BOM-038,Gas Conditioning & Storage,Charge Manifold,Check valves / nonreturn devices,1,set,Hydrogen-compatible check-valve set,Prevent unsafe reverse flow,Important,No-backfeed logic support
+BOM-039,Gas Conditioning & Storage,Charge Manifold,Manual isolation valves for charge and storage path,1,set,Hydrogen-compatible manual valves,Support maintenance and emergency isolate,Critical,Must remain physically reachable
+BOM-040,Gas Conditioning & Storage,Storage,350-bar hydrogen cylinder bank,1,assembly,About 90 kg gross storage target,Store vessel hydrogen inventory,Critical,Exact cylinder count vendor-specific
+BOM-041,Gas Conditioning & Storage,Storage,Storage pressure transducer set,1,set,Pressure instrumentation set,Inventory estimate and protection logic,Important,Multiple measurement points recommended
+BOM-042,Gas Conditioning & Storage,Storage,Storage temperature sensor set,1,set,Temperature instrumentation set,Support pressure interpretation and abnormal-state visibility,Useful,Concept count vendor-dependent
+BOM-043,Gas Conditioning & Storage,Relief,Pressure relief devices and relief header set,1,set,Hydrogen overpressure protection set,Protect storage / manifold against overpressure,Critical,Route to dedicated vent mast
+BOM-044,Gas Conditioning & Storage,Supply Path,Pressure regulation package to fuel-cell path,1,assembly,Fuel-cell supply pressure control,Deliver hydrogen under controlled conditions,Critical,Upstream isolation required
+BOM-045,Gas Conditioning & Storage,Supply Path,Hydrogen supply manifold to fuel-cell modules,1,assembly,Readable supply distribution,Feed split fuel-cell architecture,Critical,Avoid ambiguous routing
+BOM-046,Gas Conditioning & Storage,Monitoring,Compressor vibration / abnormal-state monitoring set,1,set,Mechanical-condition monitoring,Detect compressor health degradation,Useful,Could be integrated by vendor but must remain visible
+
+BOM-047,Fuel Cell & Power Conversion,Fuel Cells,Fuel Cell Module A,1,each,125-kW PEM module,Provide first half of hydrogen-derived electrical output,Critical,Independently supervised
+BOM-048,Fuel Cell & Power Conversion,Fuel Cells,Fuel Cell Module B,1,each,125-kW PEM module,Provide second half of hydrogen-derived electrical output,Critical,Supports degraded operation if paired module lost
+BOM-049,Fuel Cell & Power Conversion,Power Electronics,DC/DC conversion package for fuel-cell path,1,set,Main conversion interface set,Condition fuel-cell output onto main DC architecture,Critical,May be split per module depending vendor
+BOM-050,Fuel Cell & Power Conversion,Battery,500-kWh LFP battery system,1,assembly,Marine battery energy storage system,Provide transient support and reserve,Critical,Low placement preferred
+BOM-051,Fuel Cell & Power Conversion,Battery,Battery management system,1,assembly,Integrated BMS / supervisory hardware,Protect and supervise battery pack,Critical,Reserve policy depends on this visibility
+BOM-052,Fuel Cell & Power Conversion,Distribution,Main DC bus switchboard / distribution assembly,1,assembly,Measured and isolatable DC backbone,Unify battery and fuel-cell power paths,Critical,Core electrical architecture item
+BOM-053,Fuel Cell & Power Conversion,Distribution,Precharge and bus-isolation assembly,1,assembly,Precharge and main isolation hardware,Support safe bus energization and fault isolation,Critical,No-backfeed logic tied here
+BOM-054,Fuel Cell & Power Conversion,Distribution,Propulsion inverter interface package,1,assembly,Vessel propulsion power interface,Deliver controlled traction power,Important,Actual motor side outside core repo
+BOM-055,Fuel Cell & Power Conversion,Distribution,Hotel-load converter / service-power interface,1,assembly,Ship-service conversion path,Support auxiliary and hotel loads,Important,Supports selective load shedding
+BOM-056,Fuel Cell & Power Conversion,Thermal Management,Fuel-cell and power-electronics cooling loop,1,assembly,Cooling pumps, exchanger, and support hardware,Maintain thermal stability,Critical,Thermal faults must be visible
+BOM-057,Fuel Cell & Power Conversion,Monitoring,Bus voltage and power metering set,1,set,Main DC bus instrumentation,Support energy-truth accounting,Important,No hidden energy accounting allowed
+
+BOM-058,Safety & Ventilation,Gas Detection,Hydrogen gas detector head set,8,each,Concept count for critical zones,Detect hydrogen release or accumulation,Critical,Final count arrangement-dependent
+BOM-059,Safety & Ventilation,Flame Detection,UV/IR flame detector set,3,each,Concept count for key hydrogen zones,Detect ignited release,Critical,Final placement hazard-study dependent
+BOM-060,Safety & Ventilation,Ventilation,Dedicated extraction fan set,2,each,Redundant critical extraction fans,Provide required ventilation where basis demands,Critical,Fan proving required
+BOM-061,Safety & Ventilation,Ventilation,Airflow / differential-pressure proving devices,2,each,Ventilation proof instrumentation,Block unsafe startup on ventilation loss,Critical,One per critical extracted segment minimum conceptually
+BOM-062,Safety & Ventilation,Purge,Nitrogen purge package for targeted equipment,1,assembly,Targeted purge / gas-freeing support,Support startup and maintenance purge logic,Important,Whole-room inerting not assumed
+BOM-063,Safety & Ventilation,Emergency Stops,E-stop station set,3,each,Bridge / process / deck emergency-stop points,Manual shutdown escalation input,Critical,Concept count only
+BOM-064,Safety & Ventilation,Ingress Monitoring,Ingress / water-detection sensor set,4,each,Concept count for critical enclosures,Detect flooding or spray ingress,Important,Final count arrangement-dependent
+BOM-065,Safety & Ventilation,Alarming,Audible and visual alarm beacon set,1,set,Marine alarm signaling set,Make serious alarm states unmistakable,Important,Links to alarm classes
+BOM-066,Safety & Ventilation,Placarding,Hydrogen hazard and restricted-zone placard set,1,set,Operational signage package,Support crew and responder awareness,Useful,Human-factors support item
+
+BOM-067,Monitoring & Controls,Core Controls,Safety PLC / safety-controller assembly,1,assembly,Safety-critical supervision layer,Manage ESD, lockouts, and safety inputs,Critical,Separated conceptually from general controls
+BOM-068,Monitoring & Controls,Core Controls,Process PLC and remote I/O set,1,set,Operational supervision hardware,Manage process sequencing and subsystem states,Critical,Distributed I/O likely required
+BOM-069,Monitoring & Controls,HMI,Operator HMI panel,1,each,Industrial marine HMI,Present state, alarms, and dispatch logic,Important,Blocked-start reason visibility required
+BOM-070,Monitoring & Controls,Logging,Industrial computer / event logger,1,each,Sequence-of-events and trend host,Preserve event history and analytics,Important,Should survive bounded power disturbances
+BOM-071,Monitoring & Controls,Networking,Industrial network switch / comms backbone,1,set,Controls communications infrastructure,Connect controllers, HMI, and logged signals,Useful,Cybersecurity not finalized in this repo
+BOM-072,Monitoring & Controls,Maintenance,Keyed maintenance-mode selector and interlock hardware,1,set,Maintenance-state entry control,Prevent unsafe restart during service,Important,Must not clear silently
+BOM-073,Monitoring & Controls,Field Interfaces,Valve, contactor, and permissive feedback interface set,1,set,Discrete and analog field interface set,Support readable state and interlocks,Critical,Concept grouping item
+
+BOM-074,Housekeeping Energy,Critical Bus,48V critical-controls DC bus hardware,1,assembly,Critical low-voltage distribution backbone,Keep controls and safety visibility alive,Critical,Supports startup, shutdown, and degraded states
+BOM-075,Housekeeping Energy,Reserve,Reserve hold-up battery / supercap assembly,1,assembly,Hold-up and transition energy store,Protect event logging and control continuity,Important,Exact mix can vary
+BOM-076,Housekeeping Energy,Conversion,Primary DC/DC converter to critical bus,1,assembly,Main feed to housekeeping bus,Convert from main battery / main bus to 48V,Critical,Primary housekeeping feed
+BOM-077,Housekeeping Energy,Isolation,Source-conditioning and no-backfeed hardware set,1,set,Helper-source and reserve isolation path,Prevent unsafe source interaction,Important,Required if helper sources are included
+BOM-078,Housekeeping Energy,Helper Inputs,Optional bounded helper-source interface set,1,set,Provision for small solar / motion / thermal helper inputs,Allow honest housekeeping-only assist,Useful,Not counted as mission-critical energy
+BOM-079,Housekeeping Energy,Load Control,Critical-load priority and load-shed hardware / logic interface,1,set,H-1/H-2/H-3 load preservation support,Protect essential functions during reserve stress,Important,Control-side and power-side integration
