@@ -1,0 +1,27 @@
+IX-Marine-H2-Retrofit
+Copyright 2026 Bryce Lovell
+
+This repository is an original, concept-stage engineering and systems-integration work
+focused on a maritime hydrogen retrofit architecture for selected short-sea and harbor
+vessel classes.
+
+Scope of this repository includes, but is not limited to:
+
+- protected seawater intake and treatment for electrolyzer-grade water
+- onboard, berth-oriented hydrogen generation using externally supplied electrical energy
+- compressed-hydrogen storage architecture
+- fuel-cell and battery hybrid power integration
+- safety, ventilation, shutdown, and monitoring logic
+- proof-of-concept framing, bill of materials, and concept-stage assembly guidance
+
+This repository is not presented as:
+- class-approved vessel design
+- certified installation package
+- operational safety guarantee
+- navigation, fire-response, or emergency-response substitute
+- perpetual-motion or self-fueling claim from vessel drag or wave action alone
+
+No trademark rights are granted by this NOTICE file.
+
+This NOTICE file is provided for attribution and scope clarification only and does not
+modify the terms of the Apache License, Version 2.0.
